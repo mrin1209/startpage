@@ -1,0 +1,119 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp6zDuVQlw4A8WQGdIl1M5acGnVdavHkBt0Q&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style:none
+}
+
+.container {
+  border-bottom: 1px solid #999;
+}
+
+/* 検索 */
+
+.search {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  padding: 3px 10px;
+  border-radius: 10px;
+  height: 2.3em;
+  width: 80%;
+  margin: 100px auto 50px auto;
+  background-color: rgba(0, 0, 0, 0.300);
+}
+
+.search-window {
+  border: none;
+  position: relative;
+  height: 100%;
+  width: 90%;
+  background-color: transparent;
+}
+
+.search-window:focus {
+  outline: 0;
+}
+
+.search-btn {
+  font-size: 1.3em;
+  border: none;
+  background: none;
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  right: 10px;
+}
+
+.blow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  height: 100%;
+  width: 100%;
+}
+
+/* クイックアクセス */
+
+.quick-access {
+  margin: 0 30px;
+  border-left: solid 1px #fff;
+}
+
+.quick-title {
+  text-align: center;
+}
+
+.icon-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon {
+  box-sizing: border-box;
+  width: 20%;
+  height: auto;
+}
+
+.icon-logo {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.icon-logo a {
+  background-color: rgba(255, 255, 255, 0.318);
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-logo i {
+  font-size: 8vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-text {
+  text-align: center;
+  font-size: 50%;
+}
